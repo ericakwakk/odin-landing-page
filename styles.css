@@ -26,7 +26,6 @@ body {
     justify-content: space-between;
     background-color: #ffb3e6;
     padding: 16px 64px;
-
 }
 
 ul {
@@ -176,5 +175,16 @@ img[src="images/merlin.jpg"] {
     border: 2px solid #004509;
     cursor: pointer;
     background-color: #ffd4f1;
+    color: #004509;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    background-color: #ffb3e6;
+    padding: 16px 64px;
+}
+
+.footer-text {
     color: #004509;
 }
