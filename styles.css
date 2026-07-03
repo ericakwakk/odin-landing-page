@@ -134,3 +134,47 @@ img[src="images/merlin.jpg"] {
     align-self: flex-end;
     color: #004509;
 }
+
+.cta-section {
+  display: flex;
+  justify-content: center;
+  padding: 32px 0;
+}
+
+.cta {
+  width: 780px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 64px;
+  padding: 32px 64px;
+  background-color: #ff57c8;
+  border-radius: 8px;
+}
+
+.cta-inner {
+    display: flex;
+    flex-direction: column;
+}
+
+.cta-title {
+    font-weight: 700;
+    color: white;
+    font-size: 20px;
+}
+
+.cta-text {
+    font-size: 18px;
+    color: white;
+}
+
+.cta-button {
+    font-size: 18px;
+    font-weight: 700;
+    padding: 8px 16px;
+    border-radius: 8px;
+    border: 2px solid #004509;
+    cursor: pointer;
+    background-color: #ffd4f1;
+    color: #004509;
+}
