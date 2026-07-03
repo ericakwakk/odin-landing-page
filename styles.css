@@ -107,3 +107,30 @@ img[src="images/merlin.jpg"] {
     width: 200px;
     border-radius: 16px;
 }
+
+.quote-section {
+    display: flex;
+    justify-content: center;
+    background-color: #ffd4f1;
+    padding: 16px 64px;
+}
+
+.quote-inner {
+  display: flex;
+  flex-direction: column;
+  width: fit-content;
+}
+
+.quote-text {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 300;
+    color: #004509;
+    margin: 0;
+    padding-bottom: 16px;
+}
+
+.quote-author {
+    align-self: flex-end;
+    color: #004509;
+}
